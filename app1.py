@@ -5,9 +5,9 @@ import pytesseract
 from PIL import Image
 
 
-st.title("Pasa tus fotos a texto!!")
+st.title("✶Pasa tus fotos a texto!!✶")
 
-img_file_buffer = st.camera_input("Toma una Foto y Listo!")
+img_file_buffer = st.camera_input("Toma una Foto y Listo!✶")
 
 with st.sidebar:
       filtro = st.radio("Aplicar Filtro",('Con Filtro', 'Sin Filtro'))
